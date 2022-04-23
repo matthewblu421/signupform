@@ -2,34 +2,35 @@ div{
     outline: 1px solid red;   
 }
 
-.leaf{
-    position: absolute;
-    width: 30%;
-    height: auto;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-.logo{
-    position: relative;
-    height: 160px;
-    width: 100%;
-    background-color: rgba(1, 1 ,1, 0.5);
-    margin-top: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Norse-Bold;
-    color: white;
-    font-size: 6em;
+
+.odinlogo{
+
+}
+
+.leftside{
+position: relative;
+}
+
+.leaf{
+ height: 100%;
+ position: absolute;
+ width: auto;
+
 }
 
 #leaves{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
+height: 100vh;
+position: absolute;
 }
 
-#facelogo{
-    max-height: 90%;
+#odinid{
+
+
 }
 
 @font-face {
