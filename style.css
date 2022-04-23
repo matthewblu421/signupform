@@ -1,0 +1,38 @@
+div{
+    outline: 1px solid red;   
+}
+
+.leaf{
+    position: absolute;
+    width: 30%;
+    height: auto;
+}
+
+.logo{
+    position: relative;
+    height: 160px;
+    width: 100%;
+    background-color: rgba(1, 1 ,1, 0.5);
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Norse-Bold;
+    color: white;
+    font-size: 6em;
+}
+
+#leaves{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+#facelogo{
+    max-height: 90%;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src:url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf)
+}
