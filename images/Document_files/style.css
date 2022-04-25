@@ -7,41 +7,29 @@ div {
   src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
 }
 
-.left-cont {
-  width: 40vw;
-  height: 100%;
-  position: relative;
+.left-cont{
+    width: 40vw;
+    position: relative;
 }
 
-.green-cont {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.green-cont{
+    position: absolute;
+
 }
 
-.leaves {
-  width: 100%;
-  z-index: -1;
+.leaves{
+    width: 100%;
+    z-index: -1;
+   
 }
 
-.black-cont {
-  z-index: 1;
-  position: absolute;
-  background: rgba(1, 1, 1, 0.6);
-  color: white;
-  font-family: Norse-Bold;
-  width: 100%;
-  margin-top: 22vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: max(32px, 10vh);
-}
-
-.odin-logo {
-  height: max(34px, 14vh);
-  margin-top: 10px;
-  margin-bottom: 10px;
+.black-cont{
+    z-index: 2;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    font-family: Norse-Bold;
 }
 
 /* .odin-div {
