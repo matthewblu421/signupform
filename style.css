@@ -72,3 +72,45 @@ body {
   font-family: Norse-Bold;
   font-size: max(20px, 10vh);
 }
+
+.right-top {
+  height: 300px;
+
+  align-items: center;
+}
+
+.toptext {
+  margin-top: 0;
+  padding-top: 14vh;
+  padding-left: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  max-width: 570px;
+  min-width: 570px;
+  max-height: 250px;
+}
+
+.midtext{
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color: #222c3a;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  min-width: 350px; 
+  margin-top: 0;
+  max-height: 10px;
+ 
+  
+}
+
+.right-middle {
+  height: 300px;
+  
+}
+
+.right-bottom {
+  height: 300px;
+}
