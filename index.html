@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <script src="signupjs.js" defer></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,14 +41,33 @@
           <p class="midtext">Let's do this!</p>
           <div class="forms">
             <div class="leftforms">
-              <form action=""></form>
-              <form action=""></form>
-              <form action=""></form>
+              <form action="" method="post">
+                <span id="label"><label for="firstName">FIRST NAME</label><br></span>
+                <input type="text" id="firstName">
+              </form>
+              <form action="" method="post">
+                <span id="label"><label for="email">EMAIL</label><br></span>
+                <input type="email" id="email">
+              </form>
+              <form action="" method="post">
+                <span id="label"><label for="password">PASSWORD</label><br></span>
+                <input type="password" id="password">
+              </form>
             </div>
             <div class="rightforms">
-              <form action=""></form>
-              <form action=""></form>
-              <form action=""></form>
+              <form action="" method="post">
+                <span id="label"><label for="lastName">LAST NAME</label><br></span>
+                <input type="text" id="lastName">
+              </form>
+              <form action="" method="post">
+                <span id="label"><label for="phonenumber">PHONE NUMBER</label><br></span>
+                <input type="tel" id="phonenumber">
+              </form>
+              <form action="" method="post">
+                <span id="label"><label for="confirmpassword">CONFIRM PASSWORD</label><br></span>
+                <input type="password" id="confirmpassword">
+              </form>
+        
             </div>
           </div>
         </div>
