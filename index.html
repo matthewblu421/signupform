@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sign-Up Form</title>
     <link rel="stylesheet" href="style.css" />
     <script src="signupjs.js" defer></script>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -42,32 +42,72 @@
           <div class="forms">
             <div class="leftforms">
               <form action="" method="post">
-                <span id="label"><label for="firstName">FIRST NAME</label><br></span>
-                <input type="text" id="firstName">
+                <span id="label"
+                  ><label for="firstName">FIRST NAME</label><br
+                /></span>
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  class="reginput"
+                />
               </form>
               <form action="" method="post">
-                <span id="label"><label for="email">EMAIL</label><br></span>
-                <input type="email" id="email">
+                <span id="label"><label for="email">EMAIL</label><br /></span>
+                <input type="email" id="email" name="email" class="reginput" />
               </form>
               <form action="" method="post">
-                <span id="label"><label for="password">PASSWORD</label><br></span>
-                <input type="password" id="password">
+                <span id="label"
+                  ><label for="password">PASSWORD</label><br
+                /></span>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="reginput pw"
+                  required="required"
+                  onkeyup='check();'
+                />
               </form>
             </div>
             <div class="rightforms">
               <form action="" method="post">
-                <span id="label"><label for="lastName">LAST NAME</label><br></span>
-                <input type="text" id="lastName">
+                <span id="label"
+                  ><label for="lastName">LAST NAME</label><br
+                /></span>
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  class="reginput"
+                />
               </form>
               <form action="" method="post">
-                <span id="label"><label for="phonenumber">PHONE NUMBER</label><br></span>
-                <input type="tel" id="phonenumber">
+                <span id="label"
+                  ><label for="phonenumber">PHONE NUMBER</label><br />
+                </span>
+                <input
+                  type="tel"
+                  id="phonenumber"
+                  name="phonenumber"
+                  pattern="[0-9]+"
+                  maxlength="11"
+                  class="reginput"
+                />
               </form>
               <form action="" method="post">
-                <span id="label"><label for="confirmpassword">CONFIRM PASSWORD</label><br></span>
-                <input type="password" id="confirmpassword">
+                <span id="label"
+                  ><label for="confirmpassword">CONFIRM PASSWORD</label><br
+                /></span>
+                <input
+                  type="password"
+                  name="confirmpassword"
+                  id="confirmpassword"
+                  class="reginput"
+                  required="required"
+                  onkeyup='check();'
+                />
               </form>
-        
             </div>
           </div>
         </div>
