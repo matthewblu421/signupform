@@ -25,6 +25,16 @@
           <img src="images/odin-lined.png" alt="odin-image" class="odinpic" />
           <p class="odintext">ODIN</p>
         </div>
+        <div class="credittext">
+          Photo by
+          <a href="https://unsplash.com/photos/25xggax4bSA" class="link1">
+            Halie West</a
+          >
+          on
+          <a href="https://unsplash.com/photos/25xggax4bSA" class="link1"
+            >Unsplash</a
+          >
+        </div>
       </div>
       <div class="rightside">
         <div class="right-top">
@@ -66,7 +76,6 @@
                   name="password"
                   class="reginput pw"
                   required="required"
-                  onkeyup='check();'
                 />
               </form>
             </div>
@@ -105,13 +114,21 @@
                   id="confirmpassword"
                   class="reginput"
                   required="required"
-                  onkeyup='check();'
+                  onkeyup="check();"
                 />
               </form>
             </div>
           </div>
+          <div class="pwmatch"></div>
         </div>
-        <div class="right-bottom"></div>
+        <div class="right-bottom">
+          <div class="botrt">
+            <button class="create">Create Account</button>
+            <p class="already">
+              Already have an account? <a href="" class="login">Log in</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
