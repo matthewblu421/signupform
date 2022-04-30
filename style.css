@@ -1,6 +1,6 @@
-/* div {
+div {
   outline: 1px solid red;
-} */
+}
 
 @font-face {
   font-family: Norse-Bold;
@@ -8,17 +8,14 @@
 }
 
 body {
-  margin: 0 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
+  
 }
 
 .container {
   height: 900px;
-  width: 100vw;
+  width: 99vw;
   display: flex;
-  margin-left: 0;
-  margin-right: 0;
   object-fit: cover;
 }
 
