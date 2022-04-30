@@ -8,15 +8,16 @@ div {
 }
 
 body {
-  margin: 0;
-  
+  margin: 0 0;
 }
 
 .container {
-  height: 900px;
+  height: 875px;
   width: 99vw;
   display: flex;
   object-fit: cover;
+  margin: 0;
+  margin-bottom: 0;
 }
 
 .leftside {
@@ -38,6 +39,7 @@ body {
   width: 100%;
   position: absolute;
   object-fit: cover;
+  margin-bottom: 0;
 }
 
 .leafpic {
@@ -47,6 +49,7 @@ body {
   width: 100%;
   z-index: -1;
   position: absolute;
+  margin-bottom: 0;
 }
 
 .blackdiv {
@@ -73,7 +76,7 @@ body {
 }
 
 .right-top {
-  height: 300px;
+  height: 270px;
   background-color: #f9fafb;
   align-items: center;
 }
@@ -92,6 +95,7 @@ body {
   max-width: 570px;
   min-width: 570px;
   max-height: 250px;
+  margin-bottom: 0;
 }
 
 .midtext {
@@ -105,17 +109,21 @@ body {
   min-width: 700px;
   margin-top: 0;
   max-height: 10px;
+  margin-bottom: 0;
 }
 
 .right-middle {
-  height: 300px;
-  box-shadow: 0px 3px 5px 1px rgb(197, 192, 192);
+  height: 270px;
+  width: 101%;
+  box-shadow: -1px 3px 5px 1px rgb(197, 192, 192);
+  margin: 0;
 }
 
 .right-bottom {
   height: 270px;
   background-color: #f9fafb;
   margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .forms {
@@ -200,11 +208,10 @@ body {
   font-size: 18px;
   font-weight: 600;
   background-color: #596d48;
-  
 }
 
-.create:hover{
-   cursor:pointer;
+.create:hover {
+  cursor: pointer;
 }
 
 .already {
@@ -222,8 +229,9 @@ body {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  margin-top: 62vh;
-  margin-left: 16vw;
+  margin-left: 17%;
+  position: fixed;
+  bottom: 6px;
 }
 
 .link1 {
@@ -232,5 +240,3 @@ body {
   font-size: 14px;
   text-decoration: underline;
 }
-
-
