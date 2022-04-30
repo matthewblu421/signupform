@@ -51,7 +51,7 @@
           <p class="midtext">Let's do this!</p>
           <div class="forms">
             <div class="leftforms">
-              <form action="" method="post">
+              <form action="" id="my-form" method="get">
                 <span id="label"
                   ><label for="firstName">FIRST NAME</label><br
                 /></span>
@@ -62,11 +62,11 @@
                   class="reginput"
                 />
               </form>
-              <form action="" method="post">
+              <form action="" id="my-form" method="get">
                 <span id="label"><label for="email">EMAIL</label><br /></span>
                 <input type="email" id="email" name="email" class="reginput" />
               </form>
-              <form action="" method="post">
+              <form action="" id="my-form" method="get">
                 <span id="label"
                   ><label for="password">PASSWORD</label><br
                 /></span>
@@ -80,7 +80,7 @@
               </form>
             </div>
             <div class="rightforms">
-              <form action="" method="post">
+              <form action="" id="my-form" method="get">
                 <span id="label"
                   ><label for="lastName">LAST NAME</label><br
                 /></span>
@@ -91,7 +91,7 @@
                   class="reginput"
                 />
               </form>
-              <form action="" method="post">
+              <form action="" id="my-form " method="get">
                 <span id="label"
                   ><label for="phonenumber">PHONE NUMBER</label><br />
                 </span>
@@ -104,7 +104,7 @@
                   class="reginput"
                 />
               </form>
-              <form action="" method="post">
+              <form action="" id="my-form" method="get">
                 <span id="label"
                   ><label for="confirmpassword">CONFIRM PASSWORD</label><br
                 /></span>
@@ -123,7 +123,9 @@
         </div>
         <div class="right-bottom">
           <div class="botrt">
-            <button class="create">Create Account</button>
+            <button type="submit" form="my-form" class="create">
+              Create Account
+            </button>
             <p class="already">
               Already have an account? <a href="" class="login">Log in</a>
             </p>

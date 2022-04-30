@@ -203,6 +203,11 @@ body {
   font-size: 18px;
   font-weight: 600;
   background-color: #596d48;
+  
+}
+
+.create:hover{
+   cursor:pointer;
 }
 
 .already {
@@ -230,3 +235,5 @@ body {
   font-size: 14px;
   text-decoration: underline;
 }
+
+
